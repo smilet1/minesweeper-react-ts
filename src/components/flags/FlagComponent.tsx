@@ -6,8 +6,8 @@ interface FlagProps{
 const FlagComponent: FC<FlagProps> = ({flagCount}) => {
     return (
         <div className="flag_board">
-            <div className={`flag flag_${(flagCount / 100) % 10}`}></div>
-            <div className={`flag flag_${(flagCount/10) % 10}`}></div>
+            <div className={`flag flag_${Math.floor(flagCount / 100) % 10}`}></div>
+            <div className={`flag flag_${Math.floor(flagCount/10) % 10}`}></div>
             <div className={`flag flag_${flagCount % 10}`}></div>
         </div>
     );
