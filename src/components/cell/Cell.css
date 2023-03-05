@@ -1,0 +1,52 @@
+.cell{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: solid black 1px;*/
+}
+
+.close_cell{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") 0px -51px;
+}
+.open_cell{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -17px -51px;
+}
+.first_bomb{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -102px -51px;
+}
+.bomb{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -85px -51px;
+}
+.one{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") 0 -68px;
+}
+.two{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*1)*-1) -68px;
+}
+.three{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*2)*-1) -68px;
+}
+.four{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*3)*-1) -68px;
+}
+.five{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*4)*-1) -68px;
+}
+.six{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*5)*-1) -68px;
+}
+.seven{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*6)*-1) -68px;
+}
+.eight{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*7)*-1) -68px;
+}
+.flag_mark{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*2)*-1) -51px;
+}
+.qu_mark{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") calc((17px*3)*-1) -51px;
+}
+

@@ -1,0 +1,33 @@
+.header{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: #999;
+    border-top-color: #999;
+}
+.btn_restart{
+    width: 26px;
+    height: 26px;
+    border: 0;
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -1px -25px;
+
+}
+.btn_restart:active{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -28px -25px;
+}
+.btn_down_true{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -55px -25px
+}
+.btn_win{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -82px -25px;
+}
+.btn_loose{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -109px -25px;
+}

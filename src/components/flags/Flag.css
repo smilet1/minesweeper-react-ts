@@ -1,0 +1,38 @@
+.flag_board{
+    display: flex;
+}
+.flag{
+    width: 13px;
+    height: 23px;
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") 13px 0px;
+}
+.flag_0{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") 13px 0px;
+}
+.flag_1{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") 0px 0px;
+}
+.flag_2{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -14px 0px;
+}
+.flag_3{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -28px 0px;
+}
+.flag_4{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -42px 0px;
+}
+.flag_5{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -56px 0px;
+}
+.flag_6{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -70px 0px;
+}
+.flag_7{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -84px 0px;
+}
+.flag_8{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -98px 0px;
+}
+.flag_9{
+    background: url("../../img/minesweeper-sprites_9TPZzv3.png") -112px 0px;
+}
