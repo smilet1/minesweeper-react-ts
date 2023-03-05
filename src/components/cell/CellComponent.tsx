@@ -87,6 +87,13 @@ const CellComponent: FC<CellProps> = ({cellType, cell, boardUpdate, countFlag, u
                 }
             }
             }
+            onMouseOut={(e) => {
+                if (e.button === 0) {
+                    updateMouseDown(false);
+                    setOnClick("close_cell")
+                }
+            }
+            }
             onMouseUp={(e) => {
                 if (e.button === 0) {
                     updateMouseDown(false);
